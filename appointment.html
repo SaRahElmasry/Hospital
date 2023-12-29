@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <div class="container mt-5">
+        <h2 class="mb-4">Appointment</h2>
+        <form method="POST">
+            <label for="id">Appointment ID:</label>
+            <input type="text" name="id" required><br>
+            <label for="patient_id">Patient ID:</label>
+            <input type="text" name="patient_id" required><br>
+            <label for="doctor_id">Doctor ID:</label>
+            <input type="text" name="doctor_id" required><br>
+            <label for="datetime">Date and Time:</label>
+            <input type="datetime-local" id="datetime" name="datetime" required><br>
+            <label for="notes">Notes:</label>
+            <textarea name="notes"></textarea><br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
